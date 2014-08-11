@@ -7,6 +7,8 @@
 //
 
 #import "ISAppDelegate.h"
+#import "ISMainTableViewController.h"
+#import "ISHomeViewController.h"
 
 @implementation ISAppDelegate
 
@@ -14,6 +16,22 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+
+	ISMainTableViewController *masterView = [[ISMainTableViewController alloc] init];
+	UINavigationController *masterNav = [[UINavigationController alloc] initWithRootViewController:masterView];
+
+	ISHomeViewController *detailView = [[ISHomeViewController alloc] init];
+	UINavigationController *detailNav = [[UINavigationController alloc] initWithRootViewController:detailView];
+
+	UISplitViewController *splitView = [[UISplitViewController alloc] init];
+	splitView.viewControllers = @[masterNav, detailNav];
+	//splitView.delegate = detailView;
+	splitView.view.backgroundColor = [UIColor colorWithRed:160.0/255.0f green:169.0/255.0f blue:181.0/255.0f alpha:0.5f];
+
+	masterView.detailView = detailView;
+
+	self.window.rootViewController = splitView;
+
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

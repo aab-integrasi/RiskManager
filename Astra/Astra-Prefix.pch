@@ -14,3 +14,10 @@
 	#import <UIKit/UIKit.h>
 	#import <Foundation/Foundation.h>
 #endif
+
+#define currentLanguageBundle [NSBundle bundleWithPath:[[NSBundle mainBundle] pathForResource:[[NSLocale preferredLanguages] objectAtIndex:0] ofType:@"lproj"]]
+
+#define FOURCOLCONSTRAINT @"H:|-leftMargin-[_label1(150)]-30-[_label2(120)]-10-[_label3(120)]-10-[_label4(120)]"
+#define FIVECOLCONSTRAINT @"H:|-leftMargin-[_label1(30)]-10-[_label2(150)]-10-[_label3(150)]-10-[_label4(150)]-10-[_label5(150)]"
+#define SIXCOLCONSTRAINT @"H:|-leftMargin-[_label1(105)]-10-[_label2(100)]-10-[_label3(95)]-10-[_label4(100)]-10-[_label5(120)]-10-[_label6(118)]"
+#define SEVENCOLCONSTRAINT @"H:|-leftMargin-[_label1(70)]-10-[_label2(50)]-10-[_label3(100)]-10-[_label4(110)]-10-[_label5(70)]-10-[_label6(90)]-10-[_label7(100)]"

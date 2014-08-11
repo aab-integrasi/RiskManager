@@ -1,0 +1,20 @@
+/* 
+  Localizable.strings
+  Astra
+
+  Created by Soemarko Ridwan on 8/7/14.
+  Copyright (c) 2014 Integrasi Solutions. All rights reserved.
+*/
+
+"Welcome, %@" = "Welcome, %@";
+"home" = "home";
+"my profile" = "my profile";
+"event by category" = "event by category";
+"manage your policy" = "manage your policy";
+"premium budgeting" = "premium budgeting";
+"manage your claim" = "manage your claim";
+"quick claim" = "quick claim";
+"claim monitoring" = "claim monitoring";
+"risk management tips" = "risk management tips";
+"about us" = "about us";
+"log out" = "log out";

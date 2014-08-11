@@ -19,6 +19,38 @@
 		151F26BC198B5B990076F453 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 151F26A4198B5B980076F453 /* UIKit.framework */; };
 		151F26C4198B5B990076F453 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 151F26C2198B5B990076F453 /* InfoPlist.strings */; };
 		151F26C6198B5B990076F453 /* AstraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 151F26C5198B5B990076F453 /* AstraTests.m */; };
+		151F26D4198B5C320076F453 /* ISHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 151F26D3198B5C320076F453 /* ISHomeViewController.m */; };
+		151F26D7198B5E9D0076F453 /* ISMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 151F26D6198B5E9D0076F453 /* ISMainTableViewController.m */; };
+		151F26DA198B9AFE0076F453 /* ISCategoriesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 151F26D9198B9AFE0076F453 /* ISCategoriesTableViewController.m */; };
+		151F26DD198C14F60076F453 /* FCActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 151F26DC198C14F60076F453 /* FCActionSheet.m */; };
+		154F33D8198FEA4500A3281E /* RDVCalendarDayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 154F33D3198FEA4500A3281E /* RDVCalendarDayCell.m */; };
+		154F33D9198FEA4500A3281E /* RDVCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 154F33D5198FEA4500A3281E /* RDVCalendarView.m */; };
+		154F33DA198FEA4500A3281E /* RDVCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 154F33D7198FEA4500A3281E /* RDVCalendarViewController.m */; };
+		154F33DD198FF90E00A3281E /* SRMonthPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 154F33DC198FF90E00A3281E /* SRMonthPicker.m */; };
+		15AE48DB199543A200AD9DB2 /* ISEventOffriskTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15AE48DA199543A200AD9DB2 /* ISEventOffriskTableViewController.m */; };
+		15AE48DE19954B4F00AD9DB2 /* IS6ColTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 15AE48DC19954B4F00AD9DB2 /* IS6ColTableViewCell.m */; };
+		15AE48E119955CB600AD9DB2 /* ISEventRenewalTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15AE48DF19955CB600AD9DB2 /* ISEventRenewalTableViewController.m */; };
+		15AE48E41996871700AD9DB2 /* ISManagePolicyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15AE48E31996871700AD9DB2 /* ISManagePolicyTableViewController.m */; };
+		15AE48E719968C7B00AD9DB2 /* ISManageClaimTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15AE48E519968C7B00AD9DB2 /* ISManageClaimTableViewController.m */; };
+		15AE48EA19968F1200AD9DB2 /* ISRiskTipsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15AE48E819968F1200AD9DB2 /* ISRiskTipsTableViewController.m */; };
+		15AE48ED19977B5400AD9DB2 /* ISCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 15AE48EC19977B5400AD9DB2 /* ISCalendarCell.m */; };
+		15AE48F019979B8200AD9DB2 /* CMPopTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15AE48EF19979B8200AD9DB2 /* CMPopTipView.m */; };
+		15AE48FC19979C5700AD9DB2 /* ALActionBlockWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 15AE48F519979C5700AD9DB2 /* ALActionBlockWrapper.m */; };
+		15AE48FD19979C5700AD9DB2 /* UIBarButtonItem+ALActionBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 15AE48F719979C5700AD9DB2 /* UIBarButtonItem+ALActionBlocks.m */; };
+		15AE48FE19979C5700AD9DB2 /* UIControl+ALActionBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 15AE48F919979C5700AD9DB2 /* UIControl+ALActionBlocks.m */; };
+		15AE48FF19979C5700AD9DB2 /* UIGestureRecognizer+ALActionBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 15AE48FB19979C5700AD9DB2 /* UIGestureRecognizer+ALActionBlocks.m */; };
+		15AE49031997B61C00AD9DB2 /* ISManagePolicyDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15AE49021997B61C00AD9DB2 /* ISManagePolicyDetailTableViewController.m */; };
+		15AE49061997BAC300AD9DB2 /* IS5ColTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 15AE49051997BAC300AD9DB2 /* IS5ColTableViewCell.m */; };
+		15AE49091997BD5000AD9DB2 /* ISManagePolicyObjectsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15AE49081997BD5000AD9DB2 /* ISManagePolicyObjectsTableViewController.m */; };
+		15AE490C1997C64100AD9DB2 /* ISManageClaimDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15AE490B1997C64100AD9DB2 /* ISManageClaimDetailTableViewController.m */; };
+		15AE490F1997C9D800AD9DB2 /* IS7ColTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 15AE490E1997C9D800AD9DB2 /* IS7ColTableViewCell.m */; };
+		15AE49121997CC7D00AD9DB2 /* ISPremiumBudgetTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15AE49111997CC7D00AD9DB2 /* ISPremiumBudgetTableViewController.m */; };
+		15AE49151997D7F800AD9DB2 /* IS4ColTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 15AE49141997D7F800AD9DB2 /* IS4ColTableViewCell.m */; };
+		15AE49181997DBFD00AD9DB2 /* ISMonthlyPremiumBudgetTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15AE49171997DBFD00AD9DB2 /* ISMonthlyPremiumBudgetTableViewController.m */; };
+		15D6E8AE1992999D00D60812 /* ISProfileTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D6E8AD1992999D00D60812 /* ISProfileTableViewController.m */; };
+		15D6E8B11992A1AF00D60812 /* ISProfileTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D6E8B01992A1AF00D60812 /* ISProfileTableViewCell.m */; };
+		15D6E8B61992B02400D60812 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 15D6E8B81992B02400D60812 /* Localizable.strings */; };
+		15EBC8251993FF720011F765 /* ISLanguageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EBC8241993FF720011F765 /* ISLanguageTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +80,74 @@
 		151F26C1198B5B990076F453 /* AstraTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AstraTests-Info.plist"; sourceTree = "<group>"; };
 		151F26C3198B5B990076F453 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		151F26C5198B5B990076F453 /* AstraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AstraTests.m; sourceTree = "<group>"; };
+		151F26D2198B5C320076F453 /* ISHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISHomeViewController.h; sourceTree = "<group>"; };
+		151F26D3198B5C320076F453 /* ISHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISHomeViewController.m; sourceTree = "<group>"; };
+		151F26D5198B5E9D0076F453 /* ISMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISMainTableViewController.h; sourceTree = "<group>"; };
+		151F26D6198B5E9D0076F453 /* ISMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISMainTableViewController.m; sourceTree = "<group>"; };
+		151F26D8198B9AFE0076F453 /* ISCategoriesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISCategoriesTableViewController.h; sourceTree = "<group>"; };
+		151F26D9198B9AFE0076F453 /* ISCategoriesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISCategoriesTableViewController.m; sourceTree = "<group>"; };
+		151F26DB198C14F60076F453 /* FCActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCActionSheet.h; sourceTree = "<group>"; };
+		151F26DC198C14F60076F453 /* FCActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCActionSheet.m; sourceTree = "<group>"; };
+		154F33D2198FEA4500A3281E /* RDVCalendarDayCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVCalendarDayCell.h; sourceTree = "<group>"; };
+		154F33D3198FEA4500A3281E /* RDVCalendarDayCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVCalendarDayCell.m; sourceTree = "<group>"; };
+		154F33D4198FEA4500A3281E /* RDVCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVCalendarView.h; sourceTree = "<group>"; };
+		154F33D5198FEA4500A3281E /* RDVCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVCalendarView.m; sourceTree = "<group>"; };
+		154F33D6198FEA4500A3281E /* RDVCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVCalendarViewController.h; sourceTree = "<group>"; };
+		154F33D7198FEA4500A3281E /* RDVCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVCalendarViewController.m; sourceTree = "<group>"; };
+		154F33DB198FF90E00A3281E /* SRMonthPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRMonthPicker.h; sourceTree = "<group>"; };
+		154F33DC198FF90E00A3281E /* SRMonthPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRMonthPicker.m; sourceTree = "<group>"; };
+		15AE48D9199543A200AD9DB2 /* ISEventOffriskTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISEventOffriskTableViewController.h; sourceTree = "<group>"; };
+		15AE48DA199543A200AD9DB2 /* ISEventOffriskTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISEventOffriskTableViewController.m; sourceTree = "<group>"; };
+		15AE48DC19954B4F00AD9DB2 /* IS6ColTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IS6ColTableViewCell.m; sourceTree = "<group>"; };
+		15AE48DD19954B4F00AD9DB2 /* IS6ColTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IS6ColTableViewCell.h; sourceTree = "<group>"; };
+		15AE48DF19955CB600AD9DB2 /* ISEventRenewalTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISEventRenewalTableViewController.m; sourceTree = "<group>"; };
+		15AE48E019955CB600AD9DB2 /* ISEventRenewalTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISEventRenewalTableViewController.h; sourceTree = "<group>"; };
+		15AE48E21996871700AD9DB2 /* ISManagePolicyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISManagePolicyTableViewController.h; sourceTree = "<group>"; };
+		15AE48E31996871700AD9DB2 /* ISManagePolicyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISManagePolicyTableViewController.m; sourceTree = "<group>"; };
+		15AE48E519968C7B00AD9DB2 /* ISManageClaimTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISManageClaimTableViewController.m; sourceTree = "<group>"; };
+		15AE48E619968C7B00AD9DB2 /* ISManageClaimTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISManageClaimTableViewController.h; sourceTree = "<group>"; };
+		15AE48E819968F1200AD9DB2 /* ISRiskTipsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISRiskTipsTableViewController.m; sourceTree = "<group>"; };
+		15AE48E919968F1200AD9DB2 /* ISRiskTipsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISRiskTipsTableViewController.h; sourceTree = "<group>"; };
+		15AE48EB19977B5400AD9DB2 /* ISCalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISCalendarCell.h; sourceTree = "<group>"; };
+		15AE48EC19977B5400AD9DB2 /* ISCalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISCalendarCell.m; sourceTree = "<group>"; };
+		15AE48EE19979B8200AD9DB2 /* CMPopTipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMPopTipView.h; sourceTree = "<group>"; };
+		15AE48EF19979B8200AD9DB2 /* CMPopTipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMPopTipView.m; sourceTree = "<group>"; };
+		15AE48F219979C5700AD9DB2 /* ALActionBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALActionBlock.h; sourceTree = "<group>"; };
+		15AE48F319979C5700AD9DB2 /* ALActionBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALActionBlocks.h; sourceTree = "<group>"; };
+		15AE48F419979C5700AD9DB2 /* ALActionBlockWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALActionBlockWrapper.h; sourceTree = "<group>"; };
+		15AE48F519979C5700AD9DB2 /* ALActionBlockWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALActionBlockWrapper.m; sourceTree = "<group>"; };
+		15AE48F619979C5700AD9DB2 /* UIBarButtonItem+ALActionBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+ALActionBlocks.h"; sourceTree = "<group>"; };
+		15AE48F719979C5700AD9DB2 /* UIBarButtonItem+ALActionBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+ALActionBlocks.m"; sourceTree = "<group>"; };
+		15AE48F819979C5700AD9DB2 /* UIControl+ALActionBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+ALActionBlocks.h"; sourceTree = "<group>"; };
+		15AE48F919979C5700AD9DB2 /* UIControl+ALActionBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+ALActionBlocks.m"; sourceTree = "<group>"; };
+		15AE48FA19979C5700AD9DB2 /* UIGestureRecognizer+ALActionBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+ALActionBlocks.h"; sourceTree = "<group>"; };
+		15AE48FB19979C5700AD9DB2 /* UIGestureRecognizer+ALActionBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+ALActionBlocks.m"; sourceTree = "<group>"; };
+		15AE49011997B61C00AD9DB2 /* ISManagePolicyDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISManagePolicyDetailTableViewController.h; sourceTree = "<group>"; };
+		15AE49021997B61C00AD9DB2 /* ISManagePolicyDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISManagePolicyDetailTableViewController.m; sourceTree = "<group>"; };
+		15AE49041997BAC300AD9DB2 /* IS5ColTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IS5ColTableViewCell.h; sourceTree = "<group>"; };
+		15AE49051997BAC300AD9DB2 /* IS5ColTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IS5ColTableViewCell.m; sourceTree = "<group>"; };
+		15AE49071997BD5000AD9DB2 /* ISManagePolicyObjectsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISManagePolicyObjectsTableViewController.h; sourceTree = "<group>"; };
+		15AE49081997BD5000AD9DB2 /* ISManagePolicyObjectsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISManagePolicyObjectsTableViewController.m; sourceTree = "<group>"; };
+		15AE490A1997C64100AD9DB2 /* ISManageClaimDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISManageClaimDetailTableViewController.h; sourceTree = "<group>"; };
+		15AE490B1997C64100AD9DB2 /* ISManageClaimDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISManageClaimDetailTableViewController.m; sourceTree = "<group>"; };
+		15AE490D1997C9D800AD9DB2 /* IS7ColTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IS7ColTableViewCell.h; sourceTree = "<group>"; };
+		15AE490E1997C9D800AD9DB2 /* IS7ColTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IS7ColTableViewCell.m; sourceTree = "<group>"; };
+		15AE49101997CC7D00AD9DB2 /* ISPremiumBudgetTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISPremiumBudgetTableViewController.h; sourceTree = "<group>"; };
+		15AE49111997CC7D00AD9DB2 /* ISPremiumBudgetTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISPremiumBudgetTableViewController.m; sourceTree = "<group>"; };
+		15AE49131997D7F800AD9DB2 /* IS4ColTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IS4ColTableViewCell.h; sourceTree = "<group>"; };
+		15AE49141997D7F800AD9DB2 /* IS4ColTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IS4ColTableViewCell.m; sourceTree = "<group>"; };
+		15AE49161997DBFD00AD9DB2 /* ISMonthlyPremiumBudgetTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISMonthlyPremiumBudgetTableViewController.h; sourceTree = "<group>"; };
+		15AE49171997DBFD00AD9DB2 /* ISMonthlyPremiumBudgetTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISMonthlyPremiumBudgetTableViewController.m; sourceTree = "<group>"; };
+		15D6E8AC1992999D00D60812 /* ISProfileTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISProfileTableViewController.h; sourceTree = "<group>"; };
+		15D6E8AD1992999D00D60812 /* ISProfileTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISProfileTableViewController.m; sourceTree = "<group>"; };
+		15D6E8AF1992A1AF00D60812 /* ISProfileTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISProfileTableViewCell.h; sourceTree = "<group>"; };
+		15D6E8B01992A1AF00D60812 /* ISProfileTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISProfileTableViewCell.m; sourceTree = "<group>"; };
+		15D6E8B41992AFCC00D60812 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		15D6E8B51992AFCC00D60812 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		15D6E8B71992B02400D60812 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		15D6E8B91992B05B00D60812 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/Localizable.strings; sourceTree = "<group>"; };
+		15EBC8231993FF720011F765 /* ISLanguageTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISLanguageTableViewController.h; sourceTree = "<group>"; };
+		15EBC8241993FF720011F765 /* ISLanguageTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISLanguageTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +181,7 @@
 				151F26BF198B5B990076F453 /* AstraTests */,
 				151F269F198B5B980076F453 /* Frameworks */,
 				151F269E198B5B980076F453 /* Products */,
+				15D6E8B81992B02400D60812 /* Localizable.strings */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,6 +212,37 @@
 				151F26B0198B5B980076F453 /* ISAppDelegate.m */,
 				151F26B2198B5B980076F453 /* Images.xcassets */,
 				151F26A7198B5B980076F453 /* Supporting Files */,
+				151F26D5198B5E9D0076F453 /* ISMainTableViewController.h */,
+				151F26D6198B5E9D0076F453 /* ISMainTableViewController.m */,
+				15EBC8231993FF720011F765 /* ISLanguageTableViewController.h */,
+				15EBC8241993FF720011F765 /* ISLanguageTableViewController.m */,
+				151F26D8198B9AFE0076F453 /* ISCategoriesTableViewController.h */,
+				151F26D9198B9AFE0076F453 /* ISCategoriesTableViewController.m */,
+				15AE48E21996871700AD9DB2 /* ISManagePolicyTableViewController.h */,
+				15AE48E31996871700AD9DB2 /* ISManagePolicyTableViewController.m */,
+				15AE48E619968C7B00AD9DB2 /* ISManageClaimTableViewController.h */,
+				15AE48E519968C7B00AD9DB2 /* ISManageClaimTableViewController.m */,
+				15AE48E919968F1200AD9DB2 /* ISRiskTipsTableViewController.h */,
+				15AE48E819968F1200AD9DB2 /* ISRiskTipsTableViewController.m */,
+				151F26D2198B5C320076F453 /* ISHomeViewController.h */,
+				151F26D3198B5C320076F453 /* ISHomeViewController.m */,
+				15AE48EB19977B5400AD9DB2 /* ISCalendarCell.h */,
+				15AE48EC19977B5400AD9DB2 /* ISCalendarCell.m */,
+				15D6E8AC1992999D00D60812 /* ISProfileTableViewController.h */,
+				15D6E8AD1992999D00D60812 /* ISProfileTableViewController.m */,
+				15AE49191997E57100AD9DB2 /* Event by Categories */,
+				15AE49011997B61C00AD9DB2 /* ISManagePolicyDetailTableViewController.h */,
+				15AE49021997B61C00AD9DB2 /* ISManagePolicyDetailTableViewController.m */,
+				15AE49071997BD5000AD9DB2 /* ISManagePolicyObjectsTableViewController.h */,
+				15AE49081997BD5000AD9DB2 /* ISManagePolicyObjectsTableViewController.m */,
+				15AE49101997CC7D00AD9DB2 /* ISPremiumBudgetTableViewController.h */,
+				15AE49111997CC7D00AD9DB2 /* ISPremiumBudgetTableViewController.m */,
+				15AE49161997DBFD00AD9DB2 /* ISMonthlyPremiumBudgetTableViewController.h */,
+				15AE49171997DBFD00AD9DB2 /* ISMonthlyPremiumBudgetTableViewController.m */,
+				15AE490A1997C64100AD9DB2 /* ISManageClaimDetailTableViewController.h */,
+				15AE490B1997C64100AD9DB2 /* ISManageClaimDetailTableViewController.m */,
+				15AE491A1997E5D300AD9DB2 /* TableViewCells */,
+				15AE49001997A45B00AD9DB2 /* vendors */,
 			);
 			path = Astra;
 			sourceTree = "<group>";
@@ -142,6 +274,79 @@
 				151F26C2198B5B990076F453 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		154F33D1198FEA4500A3281E /* RDVCalendarView */ = {
+			isa = PBXGroup;
+			children = (
+				154F33D2198FEA4500A3281E /* RDVCalendarDayCell.h */,
+				154F33D3198FEA4500A3281E /* RDVCalendarDayCell.m */,
+				154F33D4198FEA4500A3281E /* RDVCalendarView.h */,
+				154F33D5198FEA4500A3281E /* RDVCalendarView.m */,
+				154F33D6198FEA4500A3281E /* RDVCalendarViewController.h */,
+				154F33D7198FEA4500A3281E /* RDVCalendarViewController.m */,
+			);
+			path = RDVCalendarView;
+			sourceTree = "<group>";
+		};
+		15AE48F119979C5700AD9DB2 /* ALActionBlocks */ = {
+			isa = PBXGroup;
+			children = (
+				15AE48F219979C5700AD9DB2 /* ALActionBlock.h */,
+				15AE48F319979C5700AD9DB2 /* ALActionBlocks.h */,
+				15AE48F419979C5700AD9DB2 /* ALActionBlockWrapper.h */,
+				15AE48F519979C5700AD9DB2 /* ALActionBlockWrapper.m */,
+				15AE48F619979C5700AD9DB2 /* UIBarButtonItem+ALActionBlocks.h */,
+				15AE48F719979C5700AD9DB2 /* UIBarButtonItem+ALActionBlocks.m */,
+				15AE48F819979C5700AD9DB2 /* UIControl+ALActionBlocks.h */,
+				15AE48F919979C5700AD9DB2 /* UIControl+ALActionBlocks.m */,
+				15AE48FA19979C5700AD9DB2 /* UIGestureRecognizer+ALActionBlocks.h */,
+				15AE48FB19979C5700AD9DB2 /* UIGestureRecognizer+ALActionBlocks.m */,
+			);
+			path = ALActionBlocks;
+			sourceTree = "<group>";
+		};
+		15AE49001997A45B00AD9DB2 /* vendors */ = {
+			isa = PBXGroup;
+			children = (
+				154F33DB198FF90E00A3281E /* SRMonthPicker.h */,
+				154F33DC198FF90E00A3281E /* SRMonthPicker.m */,
+				151F26DB198C14F60076F453 /* FCActionSheet.h */,
+				151F26DC198C14F60076F453 /* FCActionSheet.m */,
+				15AE48EE19979B8200AD9DB2 /* CMPopTipView.h */,
+				15AE48EF19979B8200AD9DB2 /* CMPopTipView.m */,
+				15AE48F119979C5700AD9DB2 /* ALActionBlocks */,
+				154F33D1198FEA4500A3281E /* RDVCalendarView */,
+			);
+			name = vendors;
+			sourceTree = "<group>";
+		};
+		15AE49191997E57100AD9DB2 /* Event by Categories */ = {
+			isa = PBXGroup;
+			children = (
+				15AE48D9199543A200AD9DB2 /* ISEventOffriskTableViewController.h */,
+				15AE48DA199543A200AD9DB2 /* ISEventOffriskTableViewController.m */,
+				15AE48E019955CB600AD9DB2 /* ISEventRenewalTableViewController.h */,
+				15AE48DF19955CB600AD9DB2 /* ISEventRenewalTableViewController.m */,
+			);
+			name = "Event by Categories";
+			sourceTree = "<group>";
+		};
+		15AE491A1997E5D300AD9DB2 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				15D6E8AF1992A1AF00D60812 /* ISProfileTableViewCell.h */,
+				15D6E8B01992A1AF00D60812 /* ISProfileTableViewCell.m */,
+				15AE48DD19954B4F00AD9DB2 /* IS6ColTableViewCell.h */,
+				15AE48DC19954B4F00AD9DB2 /* IS6ColTableViewCell.m */,
+				15AE49041997BAC300AD9DB2 /* IS5ColTableViewCell.h */,
+				15AE49051997BAC300AD9DB2 /* IS5ColTableViewCell.m */,
+				15AE490D1997C9D800AD9DB2 /* IS7ColTableViewCell.h */,
+				15AE490E1997C9D800AD9DB2 /* IS7ColTableViewCell.m */,
+				15AE49131997D7F800AD9DB2 /* IS4ColTableViewCell.h */,
+				15AE49141997D7F800AD9DB2 /* IS4ColTableViewCell.m */,
+			);
+			name = TableViewCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,6 +408,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				id,
 			);
 			mainGroup = 151F2694198B5B980076F453;
 			productRefGroup = 151F269E198B5B980076F453 /* Products */;
@@ -221,6 +427,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				151F26AB198B5B980076F453 /* InfoPlist.strings in Resources */,
+				15D6E8B61992B02400D60812 /* Localizable.strings in Resources */,
 				151F26B3198B5B980076F453 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,7 +448,38 @@
 			buildActionMask = 2147483647;
 			files = (
 				151F26B1198B5B980076F453 /* ISAppDelegate.m in Sources */,
+				15AE49151997D7F800AD9DB2 /* IS4ColTableViewCell.m in Sources */,
+				15AE48E719968C7B00AD9DB2 /* ISManageClaimTableViewController.m in Sources */,
+				154F33DD198FF90E00A3281E /* SRMonthPicker.m in Sources */,
+				15AE49091997BD5000AD9DB2 /* ISManagePolicyObjectsTableViewController.m in Sources */,
+				15AE49031997B61C00AD9DB2 /* ISManagePolicyDetailTableViewController.m in Sources */,
+				15AE48FD19979C5700AD9DB2 /* UIBarButtonItem+ALActionBlocks.m in Sources */,
+				15EBC8251993FF720011F765 /* ISLanguageTableViewController.m in Sources */,
+				154F33DA198FEA4500A3281E /* RDVCalendarViewController.m in Sources */,
+				15AE490F1997C9D800AD9DB2 /* IS7ColTableViewCell.m in Sources */,
+				15D6E8B11992A1AF00D60812 /* ISProfileTableViewCell.m in Sources */,
+				15AE48F019979B8200AD9DB2 /* CMPopTipView.m in Sources */,
+				15AE48FE19979C5700AD9DB2 /* UIControl+ALActionBlocks.m in Sources */,
+				15AE48FF19979C5700AD9DB2 /* UIGestureRecognizer+ALActionBlocks.m in Sources */,
+				15AE49181997DBFD00AD9DB2 /* ISMonthlyPremiumBudgetTableViewController.m in Sources */,
+				151F26D4198B5C320076F453 /* ISHomeViewController.m in Sources */,
+				15AE48DE19954B4F00AD9DB2 /* IS6ColTableViewCell.m in Sources */,
+				15AE48E41996871700AD9DB2 /* ISManagePolicyTableViewController.m in Sources */,
+				151F26DA198B9AFE0076F453 /* ISCategoriesTableViewController.m in Sources */,
+				15AE48DB199543A200AD9DB2 /* ISEventOffriskTableViewController.m in Sources */,
+				15AE48FC19979C5700AD9DB2 /* ALActionBlockWrapper.m in Sources */,
+				15AE48E119955CB600AD9DB2 /* ISEventRenewalTableViewController.m in Sources */,
+				151F26D7198B5E9D0076F453 /* ISMainTableViewController.m in Sources */,
+				151F26DD198C14F60076F453 /* FCActionSheet.m in Sources */,
+				154F33D9198FEA4500A3281E /* RDVCalendarView.m in Sources */,
+				154F33D8198FEA4500A3281E /* RDVCalendarDayCell.m in Sources */,
+				15D6E8AE1992999D00D60812 /* ISProfileTableViewController.m in Sources */,
+				15AE48ED19977B5400AD9DB2 /* ISCalendarCell.m in Sources */,
+				15AE490C1997C64100AD9DB2 /* ISManageClaimDetailTableViewController.m in Sources */,
 				151F26AD198B5B980076F453 /* main.m in Sources */,
+				15AE48EA19968F1200AD9DB2 /* ISRiskTipsTableViewController.m in Sources */,
+				15AE49061997BAC300AD9DB2 /* IS5ColTableViewCell.m in Sources */,
+				15AE49121997CC7D00AD9DB2 /* ISPremiumBudgetTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +506,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				151F26AA198B5B980076F453 /* en */,
+				15D6E8B41992AFCC00D60812 /* id */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -276,8 +515,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				151F26C3198B5B990076F453 /* en */,
+				15D6E8B51992AFCC00D60812 /* id */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		15D6E8B81992B02400D60812 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15D6E8B71992B02400D60812 /* en */,
+				15D6E8B91992B05B00D60812 /* id */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -363,6 +612,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Astra/Astra-Prefix.pch";
 				INFOPLIST_FILE = "Astra/Astra-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -376,6 +626,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Astra/Astra-Prefix.pch";
 				INFOPLIST_FILE = "Astra/Astra-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -440,6 +691,7 @@
 				151F26CB198B5B990076F453 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		151F26CC198B5B990076F453 /* Build configuration list for PBXNativeTarget "AstraTests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +700,7 @@
 				151F26CE198B5B990076F453 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
