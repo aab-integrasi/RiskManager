@@ -61,6 +61,19 @@
 	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(languageUpdated) name:@"updateLanguage" object:nil];
 }
 
+- (void)viewDidAppear:(BOOL)animated {
+	[super viewDidAppear:animated];
+
+	// !sync json download
+	NSDate *start = [NSDate date];
+
+	NSURL *url = [NSURL URLWithString:@"http://soemarko.com/astra/policy-big.json"];
+	NSData *data = [NSData dataWithContentsOfURL:url];
+	NSArray *json = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil]; //parse
+
+	[[[UIAlertView alloc] initWithTitle:@"testing json" message:[NSString stringWithFormat:@"File size: %.3f MB\nTime: %.3f secs\nObjects: %ld", (float)data.length/1024.0f/1024.0f, -[start timeIntervalSinceNow], (unsigned long)[json count]] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil] show];
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -254,6 +267,7 @@
 			   NSLocalizedStringWithDefaultValue(@"risk management tips", nil, currentLanguageBundle, @"risk management tips", nil)];
 
 	[self.tableView reloadData];
+	[self.navigationController.view setNeedsDisplay];
 }
 
 @end

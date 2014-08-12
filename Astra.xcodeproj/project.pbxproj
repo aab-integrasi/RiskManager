@@ -26,7 +26,6 @@
 		154F33D8198FEA4500A3281E /* RDVCalendarDayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 154F33D3198FEA4500A3281E /* RDVCalendarDayCell.m */; };
 		154F33D9198FEA4500A3281E /* RDVCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 154F33D5198FEA4500A3281E /* RDVCalendarView.m */; };
 		154F33DA198FEA4500A3281E /* RDVCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 154F33D7198FEA4500A3281E /* RDVCalendarViewController.m */; };
-		154F33DD198FF90E00A3281E /* SRMonthPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 154F33DC198FF90E00A3281E /* SRMonthPicker.m */; };
 		15AE48DB199543A200AD9DB2 /* ISEventOffriskTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15AE48DA199543A200AD9DB2 /* ISEventOffriskTableViewController.m */; };
 		15AE48DE19954B4F00AD9DB2 /* IS6ColTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 15AE48DC19954B4F00AD9DB2 /* IS6ColTableViewCell.m */; };
 		15AE48E119955CB600AD9DB2 /* ISEventRenewalTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15AE48DF19955CB600AD9DB2 /* ISEventRenewalTableViewController.m */; };
@@ -94,8 +93,6 @@
 		154F33D5198FEA4500A3281E /* RDVCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVCalendarView.m; sourceTree = "<group>"; };
 		154F33D6198FEA4500A3281E /* RDVCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVCalendarViewController.h; sourceTree = "<group>"; };
 		154F33D7198FEA4500A3281E /* RDVCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVCalendarViewController.m; sourceTree = "<group>"; };
-		154F33DB198FF90E00A3281E /* SRMonthPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRMonthPicker.h; sourceTree = "<group>"; };
-		154F33DC198FF90E00A3281E /* SRMonthPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRMonthPicker.m; sourceTree = "<group>"; };
 		15AE48D9199543A200AD9DB2 /* ISEventOffriskTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISEventOffriskTableViewController.h; sourceTree = "<group>"; };
 		15AE48DA199543A200AD9DB2 /* ISEventOffriskTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISEventOffriskTableViewController.m; sourceTree = "<group>"; };
 		15AE48DC19954B4F00AD9DB2 /* IS6ColTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IS6ColTableViewCell.m; sourceTree = "<group>"; };
@@ -309,8 +306,6 @@
 		15AE49001997A45B00AD9DB2 /* vendors */ = {
 			isa = PBXGroup;
 			children = (
-				154F33DB198FF90E00A3281E /* SRMonthPicker.h */,
-				154F33DC198FF90E00A3281E /* SRMonthPicker.m */,
 				151F26DB198C14F60076F453 /* FCActionSheet.h */,
 				151F26DC198C14F60076F453 /* FCActionSheet.m */,
 				15AE48EE19979B8200AD9DB2 /* CMPopTipView.h */,
@@ -450,7 +445,6 @@
 				151F26B1198B5B980076F453 /* ISAppDelegate.m in Sources */,
 				15AE49151997D7F800AD9DB2 /* IS4ColTableViewCell.m in Sources */,
 				15AE48E719968C7B00AD9DB2 /* ISManageClaimTableViewController.m in Sources */,
-				154F33DD198FF90E00A3281E /* SRMonthPicker.m in Sources */,
 				15AE49091997BD5000AD9DB2 /* ISManagePolicyObjectsTableViewController.m in Sources */,
 				15AE49031997B61C00AD9DB2 /* ISManagePolicyDetailTableViewController.m in Sources */,
 				15AE48FD19979C5700AD9DB2 /* UIBarButtonItem+ALActionBlocks.m in Sources */,
