@@ -9,6 +9,7 @@
 #import "ISAppDelegate.h"
 #import "ISMainTableViewController.h"
 #import "ISHomeViewController.h"
+#import "ISClaimFormViewController.h"
 
 @implementation ISAppDelegate
 
@@ -20,7 +21,7 @@
 	ISMainTableViewController *masterView = [[ISMainTableViewController alloc] init];
 	UINavigationController *masterNav = [[UINavigationController alloc] initWithRootViewController:masterView];
 
-	ISHomeViewController *detailView = [[ISHomeViewController alloc] init];
+	ISClaimFormViewController *detailView = [[ISClaimFormViewController alloc] init];
 	UINavigationController *detailNav = [[UINavigationController alloc] initWithRootViewController:detailView];
 
 	UISplitViewController *splitView = [[UISplitViewController alloc] init];
