@@ -23,6 +23,18 @@
 		151F26D7198B5E9D0076F453 /* ISMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 151F26D6198B5E9D0076F453 /* ISMainTableViewController.m */; };
 		151F26DA198B9AFE0076F453 /* ISCategoriesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 151F26D9198B9AFE0076F453 /* ISCategoriesTableViewController.m */; };
 		151F26DD198C14F60076F453 /* FCActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 151F26DC198C14F60076F453 /* FCActionSheet.m */; };
+		153DB183199D29CF0057761F /* FCAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 153DB16D199D29CF0057761F /* FCAlertView.m */; };
+		153DB184199D29CF0057761F /* FCPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 153DB170199D29CF0057761F /* FCPickerViewController.m */; };
+		153DB185199D29CF0057761F /* FCReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 153DB172199D29CF0057761F /* FCReachability.m */; };
+		153DB186199D29CF0057761F /* FCSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 153DB174199D29CF0057761F /* FCSheetView.m */; };
+		153DB187199D29CF0057761F /* NSArray+FCUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 153DB176199D29CF0057761F /* NSArray+FCUtilities.m */; };
+		153DB188199D29CF0057761F /* NSData+FCUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 153DB178199D29CF0057761F /* NSData+FCUtilities.m */; };
+		153DB189199D29CF0057761F /* NSString+FCUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 153DB17A199D29CF0057761F /* NSString+FCUtilities.m */; };
+		153DB18A199D29CF0057761F /* NSURL+FCUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 153DB17C199D29CF0057761F /* NSURL+FCUtilities.m */; };
+		153DB18B199D29CF0057761F /* UIColor+FCUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 153DB17E199D29CF0057761F /* UIColor+FCUtilities.m */; };
+		153DB18C199D29CF0057761F /* UIDevice+FCUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 153DB180199D29CF0057761F /* UIDevice+FCUtilities.m */; };
+		153DB18D199D29CF0057761F /* UIImage+FCUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 153DB182199D29CF0057761F /* UIImage+FCUtilities.m */; };
+		153DB191199D2C9F0057761F /* ISURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 153DB190199D2C9F0057761F /* ISURLConnection.m */; };
 		15412C11199BF68B00DB6329 /* XLFormBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 15412BD5199BF68B00DB6329 /* XLFormBaseCell.m */; };
 		15412C12199BF68B00DB6329 /* XLFormButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 15412BD7199BF68B00DB6329 /* XLFormButtonCell.m */; };
 		15412C13199BF68B00DB6329 /* XLFormCheckCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 15412BD9199BF68B00DB6329 /* XLFormCheckCell.m */; };
@@ -114,6 +126,31 @@
 		151F26D9198B9AFE0076F453 /* ISCategoriesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISCategoriesTableViewController.m; sourceTree = "<group>"; };
 		151F26DB198C14F60076F453 /* FCActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCActionSheet.h; sourceTree = "<group>"; };
 		151F26DC198C14F60076F453 /* FCActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCActionSheet.m; sourceTree = "<group>"; };
+		153DB16C199D29CF0057761F /* FCAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCAlertView.h; sourceTree = "<group>"; };
+		153DB16D199D29CF0057761F /* FCAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCAlertView.m; sourceTree = "<group>"; };
+		153DB16E199D29CF0057761F /* FCBasics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCBasics.h; sourceTree = "<group>"; };
+		153DB16F199D29CF0057761F /* FCPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCPickerViewController.h; sourceTree = "<group>"; };
+		153DB170199D29CF0057761F /* FCPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCPickerViewController.m; sourceTree = "<group>"; };
+		153DB171199D29CF0057761F /* FCReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCReachability.h; sourceTree = "<group>"; };
+		153DB172199D29CF0057761F /* FCReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCReachability.m; sourceTree = "<group>"; };
+		153DB173199D29CF0057761F /* FCSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCSheetView.h; sourceTree = "<group>"; };
+		153DB174199D29CF0057761F /* FCSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCSheetView.m; sourceTree = "<group>"; };
+		153DB175199D29CF0057761F /* NSArray+FCUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+FCUtilities.h"; sourceTree = "<group>"; };
+		153DB176199D29CF0057761F /* NSArray+FCUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+FCUtilities.m"; sourceTree = "<group>"; };
+		153DB177199D29CF0057761F /* NSData+FCUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+FCUtilities.h"; sourceTree = "<group>"; };
+		153DB178199D29CF0057761F /* NSData+FCUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+FCUtilities.m"; sourceTree = "<group>"; };
+		153DB179199D29CF0057761F /* NSString+FCUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FCUtilities.h"; sourceTree = "<group>"; };
+		153DB17A199D29CF0057761F /* NSString+FCUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FCUtilities.m"; sourceTree = "<group>"; };
+		153DB17B199D29CF0057761F /* NSURL+FCUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+FCUtilities.h"; sourceTree = "<group>"; };
+		153DB17C199D29CF0057761F /* NSURL+FCUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+FCUtilities.m"; sourceTree = "<group>"; };
+		153DB17D199D29CF0057761F /* UIColor+FCUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FCUtilities.h"; sourceTree = "<group>"; };
+		153DB17E199D29CF0057761F /* UIColor+FCUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FCUtilities.m"; sourceTree = "<group>"; };
+		153DB17F199D29CF0057761F /* UIDevice+FCUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+FCUtilities.h"; sourceTree = "<group>"; };
+		153DB180199D29CF0057761F /* UIDevice+FCUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+FCUtilities.m"; sourceTree = "<group>"; };
+		153DB181199D29CF0057761F /* UIImage+FCUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FCUtilities.h"; sourceTree = "<group>"; };
+		153DB182199D29CF0057761F /* UIImage+FCUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FCUtilities.m"; sourceTree = "<group>"; };
+		153DB18F199D2C9F0057761F /* ISURLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISURLConnection.h; sourceTree = "<group>"; };
+		153DB190199D2C9F0057761F /* ISURLConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISURLConnection.m; sourceTree = "<group>"; };
 		15412BD4199BF68B00DB6329 /* XLFormBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormBaseCell.h; sourceTree = "<group>"; };
 		15412BD5199BF68B00DB6329 /* XLFormBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormBaseCell.m; sourceTree = "<group>"; };
 		15412BD6199BF68B00DB6329 /* XLFormButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormButtonCell.h; sourceTree = "<group>"; };
@@ -328,6 +365,8 @@
 				15AE490B1997C64100AD9DB2 /* ISManageClaimDetailTableViewController.m */,
 				15412C2B199BF6B700DB6329 /* ISClaimFormViewController.h */,
 				15412C2C199BF6B700DB6329 /* ISClaimFormViewController.m */,
+				153DB18F199D2C9F0057761F /* ISURLConnection.h */,
+				153DB190199D2C9F0057761F /* ISURLConnection.m */,
 				15AE491A1997E5D300AD9DB2 /* TableViewCells */,
 				15AE49001997A45B00AD9DB2 /* vendors */,
 			);
@@ -361,6 +400,38 @@
 				151F26C2198B5B990076F453 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		153DB18E199D29DC0057761F /* FCUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				151F26DB198C14F60076F453 /* FCActionSheet.h */,
+				151F26DC198C14F60076F453 /* FCActionSheet.m */,
+				153DB16C199D29CF0057761F /* FCAlertView.h */,
+				153DB16D199D29CF0057761F /* FCAlertView.m */,
+				153DB16E199D29CF0057761F /* FCBasics.h */,
+				153DB16F199D29CF0057761F /* FCPickerViewController.h */,
+				153DB170199D29CF0057761F /* FCPickerViewController.m */,
+				153DB171199D29CF0057761F /* FCReachability.h */,
+				153DB172199D29CF0057761F /* FCReachability.m */,
+				153DB173199D29CF0057761F /* FCSheetView.h */,
+				153DB174199D29CF0057761F /* FCSheetView.m */,
+				153DB175199D29CF0057761F /* NSArray+FCUtilities.h */,
+				153DB176199D29CF0057761F /* NSArray+FCUtilities.m */,
+				153DB177199D29CF0057761F /* NSData+FCUtilities.h */,
+				153DB178199D29CF0057761F /* NSData+FCUtilities.m */,
+				153DB179199D29CF0057761F /* NSString+FCUtilities.h */,
+				153DB17A199D29CF0057761F /* NSString+FCUtilities.m */,
+				153DB17B199D29CF0057761F /* NSURL+FCUtilities.h */,
+				153DB17C199D29CF0057761F /* NSURL+FCUtilities.m */,
+				153DB17D199D29CF0057761F /* UIColor+FCUtilities.h */,
+				153DB17E199D29CF0057761F /* UIColor+FCUtilities.m */,
+				153DB17F199D29CF0057761F /* UIDevice+FCUtilities.h */,
+				153DB180199D29CF0057761F /* UIDevice+FCUtilities.m */,
+				153DB181199D29CF0057761F /* UIImage+FCUtilities.h */,
+				153DB182199D29CF0057761F /* UIImage+FCUtilities.m */,
+			);
+			name = FCUtilities;
 			sourceTree = "<group>";
 		};
 		15412BD2199BF68B00DB6329 /* XL */ = {
@@ -501,8 +572,7 @@
 			isa = PBXGroup;
 			children = (
 				15412BD2199BF68B00DB6329 /* XL */,
-				151F26DB198C14F60076F453 /* FCActionSheet.h */,
-				151F26DC198C14F60076F453 /* FCActionSheet.m */,
+				153DB18E199D29DC0057761F /* FCUtilities */,
 				15AE48EE19979B8200AD9DB2 /* CMPopTipView.h */,
 				15AE48EF19979B8200AD9DB2 /* CMPopTipView.m */,
 				15AE48F119979C5700AD9DB2 /* ALActionBlocks */,
@@ -637,10 +707,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				153DB187199D29CF0057761F /* NSArray+FCUtilities.m in Sources */,
 				151F26B1198B5B980076F453 /* ISAppDelegate.m in Sources */,
 				15412C25199BF68B00DB6329 /* NSArray+XLFormAdditions.m in Sources */,
 				15AE49151997D7F800AD9DB2 /* IS4ColTableViewCell.m in Sources */,
 				15412C28199BF68B00DB6329 /* XLFormRightDetailCell.m in Sources */,
+				153DB191199D2C9F0057761F /* ISURLConnection.m in Sources */,
 				15AE48E719968C7B00AD9DB2 /* ISManageClaimTableViewController.m in Sources */,
 				15AE49091997BD5000AD9DB2 /* ISManagePolicyObjectsTableViewController.m in Sources */,
 				15AE49031997B61C00AD9DB2 /* ISManagePolicyDetailTableViewController.m in Sources */,
@@ -653,18 +725,24 @@
 				15412C1A199BF68B00DB6329 /* XLFormSelectorCell.m in Sources */,
 				15412C15199BF68B00DB6329 /* XLFormDatePickerCell.m in Sources */,
 				15412C29199BF68B00DB6329 /* XLFormRightImageButton.m in Sources */,
+				153DB183199D29CF0057761F /* FCAlertView.m in Sources */,
 				15412C20199BF68B00DB6329 /* XLFormOptionsViewController.m in Sources */,
 				15412C16199BF68B00DB6329 /* XLFormInlineSelectorCell.m in Sources */,
 				15AE490F1997C9D800AD9DB2 /* IS7ColTableViewCell.m in Sources */,
 				15412C1D199BF68B00DB6329 /* XLFormTextFieldCell.m in Sources */,
+				153DB188199D29CF0057761F /* NSData+FCUtilities.m in Sources */,
 				15412C18199BF68B00DB6329 /* XLFormPickerCell.m in Sources */,
+				153DB18A199D29CF0057761F /* NSURL+FCUtilities.m in Sources */,
 				15D6E8B11992A1AF00D60812 /* ISProfileTableViewCell.m in Sources */,
 				15412C17199BF68B00DB6329 /* XLFormLeftRightSelectorCell.m in Sources */,
+				153DB18C199D29CF0057761F /* UIDevice+FCUtilities.m in Sources */,
 				15412C21199BF68B00DB6329 /* XLFormViewController.m in Sources */,
 				15AE48F019979B8200AD9DB2 /* CMPopTipView.m in Sources */,
 				15AE48FE19979C5700AD9DB2 /* UIControl+ALActionBlocks.m in Sources */,
+				153DB184199D29CF0057761F /* FCPickerViewController.m in Sources */,
 				15412C27199BF68B00DB6329 /* UIView+XLFormAdditions.m in Sources */,
 				15412C2A199BF68B00DB6329 /* XLFormTextView.m in Sources */,
+				153DB18B199D29CF0057761F /* UIColor+FCUtilities.m in Sources */,
 				15AE48FF19979C5700AD9DB2 /* UIGestureRecognizer+ALActionBlocks.m in Sources */,
 				15AE49181997DBFD00AD9DB2 /* ISMonthlyPremiumBudgetTableViewController.m in Sources */,
 				151F26D4198B5C320076F453 /* ISHomeViewController.m in Sources */,
@@ -672,6 +750,7 @@
 				15AE48E41996871700AD9DB2 /* ISManagePolicyTableViewController.m in Sources */,
 				151F26DA198B9AFE0076F453 /* ISCategoriesTableViewController.m in Sources */,
 				15412C1C199BF68B00DB6329 /* XLFormSwitchCell.m in Sources */,
+				153DB189199D29CF0057761F /* NSString+FCUtilities.m in Sources */,
 				15412C1B199BF68B00DB6329 /* XLFormStepCounterCell.m in Sources */,
 				15AE48DB199543A200AD9DB2 /* ISEventOffriskTableViewController.m in Sources */,
 				15AE48FC19979C5700AD9DB2 /* ALActionBlockWrapper.m in Sources */,
@@ -684,6 +763,8 @@
 				15412C1E199BF68B00DB6329 /* XLFormTextViewCell.m in Sources */,
 				154F33D8198FEA4500A3281E /* RDVCalendarDayCell.m in Sources */,
 				15412C13199BF68B00DB6329 /* XLFormCheckCell.m in Sources */,
+				153DB18D199D29CF0057761F /* UIImage+FCUtilities.m in Sources */,
+				153DB185199D29CF0057761F /* FCReachability.m in Sources */,
 				15412C12199BF68B00DB6329 /* XLFormButtonCell.m in Sources */,
 				15D6E8AE1992999D00D60812 /* ISProfileTableViewController.m in Sources */,
 				15AE48ED19977B5400AD9DB2 /* ISCalendarCell.m in Sources */,
@@ -695,6 +776,7 @@
 				15AE49061997BAC300AD9DB2 /* IS5ColTableViewCell.m in Sources */,
 				15412C26199BF68B00DB6329 /* NSObject+XLFormAdditions.m in Sources */,
 				15412C19199BF68B00DB6329 /* XLFormSegmentedCell.m in Sources */,
+				153DB186199D29CF0057761F /* FCSheetView.m in Sources */,
 				15AE49121997CC7D00AD9DB2 /* ISPremiumBudgetTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
